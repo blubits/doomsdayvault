@@ -1,0 +1,46 @@
+.typed-cursor {
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+
+@keyframes blink{
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+@-webkit-keyframes blink{
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+@-moz-keyframes blink{
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+button#next {
+    background-color: black;
+    color: white;
+    border-radius: 0;
+    padding: 5px 25px;
+    margin-top: 15px;
+}
+
+form#passcode input {
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+.correct {
+    color: #00FF00;
+}
+
+.incorrect {
+    color: #FF0000;
+}

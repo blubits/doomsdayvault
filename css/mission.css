@@ -1,0 +1,96 @@
+section#command img {
+    margin: 20px auto;
+}
+
+section#factions > img {
+    margin: 20px auto;
+}
+
+section#object > img {
+    margin: 20px auto;
+}
+
+
+@media (min-width: 600px) {
+
+    section#factions > img {
+        height: 500px;
+    }
+
+    section#factions > img {
+        height: 400px;
+    }
+
+}
+
+section.media {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+section.media img {
+    height: 200px;
+    margin: auto 30px;
+}
+
+section.media div.media-body {
+    padding-left: 30px;
+}
+
+section#mars h1 {
+    color: #CC0D1E;
+}
+
+section#czar h1 {
+    color: #E5C609;
+}
+
+section#visioneer h1 {
+    color: #1850EF;
+}
+
+section#beacon h1 {
+    color: #1E1886;
+}
+
+section#entity h1 {
+    color: #C2C1C7;
+}
+
+section#silencers h1 {
+    color: #AC0103;
+}
+
+@media (max-width: 768px) {
+
+    section.media img {
+        margin: 0 auto;
+    }
+
+    section.media div.media-body {
+        padding-left: 0px;
+    }
+
+    section.media h1 {
+        text-align: center;
+    }
+
+}
+
+@media (min-width: 500px) {
+
+    section#command img {
+        height: 400px;
+        padding: 50px;
+    }
+
+}
+
+@media (max-width: 500px) {
+
+    section#command img {
+        height: 300px;
+        padding: 37.5px;
+    }
+
+}

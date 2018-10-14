@@ -1,0 +1,21 @@
+section#description img {
+    margin: 0 auto;
+}
+
+@media (min-width: 500px) {
+
+    section#description img {
+        height: 400px;
+        padding: 50px;
+    }
+
+}
+
+@media (max-width: 500px) {
+
+    section#description img {
+        height: 300px;
+        padding: 37.5px;
+    }
+
+}

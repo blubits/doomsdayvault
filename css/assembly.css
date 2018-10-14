@@ -1,0 +1,78 @@
+@media (min-width: 500px) {
+
+    section#description img {
+        height: 400px;
+        padding: 50px;
+    }
+
+}
+
+@media (max-width: 500px) {
+
+    section#description img {
+        height: 300px;
+        padding: 37.5px;
+    }
+
+}
+
+section#schedule {
+    margin: 20px auto;
+}
+
+table {
+    border: 1px solid white;
+}
+
+table td {
+    border: 1px solid white;
+}
+
+table.table > tbody > tr > td, table.table > thead > tr > td {
+    text-align: center;
+    vertical-align: middle;
+    text-transform: uppercase;
+}
+
+thead td, tbody td:first-child {
+    font-weight: bold;
+}
+
+.popover {
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 0px;
+    font-family: "Roboto Mono", monospace;
+}
+
+.popover h3 {
+    background-color: black;
+    text-transform: uppercase;
+}
+
+span.codename {
+    font-size: 80%;
+}
+
+a[data-toggle="tooltip"] {
+    border-bottom: 1px dotted white;
+    color: white;
+}
+
+.tooltip {
+    color: white;
+    border: white;
+    font-family: "Roboto Mono", monospace;
+}
+
+section#description img {
+    margin: 20px auto;
+}
+
+@media (min-width: 500px) {
+
+    section#description img {
+        height: 400px;
+    }
+
+}

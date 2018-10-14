@@ -1,0 +1,18 @@
+0 - Visited site
+    -> SET upon first visit of index.html
+    -> If on any other page except index, redirect to index
+
+1 - Loaded riddle.html
+    -> SET upon first visit of riddle.html
+    -> If on any other page except riddle, redirect to riddle
+    -> Render riddle.html form 1, where riddle is first presented
+
+2 - Loaded riddle.html, incorrect answer
+    -> SET upon incorrect answer of riddle.html
+    -> If on any other page except riddle, redirect to riddle
+    -> Render riddle.html form 2, where riddle says INCORRECT PASSWORD. PLEASE TRY AGAIN.
+
+3 - Loaded riddle.html, correct answer
+    -> SET upon correct answer of riddle.html
+    -> Redirect to mission.html on first try
+    -> Render index.html form 2: "Welcome back, agent."

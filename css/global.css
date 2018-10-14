@@ -1,0 +1,56 @@
+body {
+    background-color: black;
+    color: #EEEEEE;
+    font-family: "Roboto Mono", monospace;
+    font-size: 16px;
+    text-align: justify;
+    line-height: 160%;
+}
+
+article {
+    margin-top: 30px;
+}
+
+.placeholder {
+    background-color: white;
+    height: 300px;
+    width: 300px;
+    margin: 30px auto;
+}
+
+a {
+    color: #00FF00;
+}
+
+a:hover {
+    color: #00FF00;
+    text-decoration: none;
+    border-bottom: 1px solid #00FF00;
+}
+
+p.key {
+    font-size: 80%;
+}
+
+.right {
+    padding: 0 30px;
+}
+
+/*
+ * Left portion of website should be fixed, right should be scrolling
+ * (though this should be only true if screen is wide enough)
+ */
+
+@media (min-width: 768px) {
+
+    .left {
+        position: fixed;
+        width: 25%;
+    }
+
+    .right {
+        float: right;
+        width: 75%
+    }
+
+}
